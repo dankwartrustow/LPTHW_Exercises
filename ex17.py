@@ -9,7 +9,7 @@ script, from_file, to_file = argv
 print "Copying from %s to %s"  % (from_file, to_file)
 
 # we could do these two on one line, how?
-# NO FUCKING CLUE how to make this whole thing one line
+# By using a semicolon!
 # in_file opens the file passed to the script using the argv
 # variable 'from_file'. It then calls the read method on 
 # in_file, and assigns it to the variable 'indata'
