@@ -51,8 +51,8 @@ print_a_line(current_line, current_file)
 # for the function above to work properly. By doing this you are able to 
 # alter the core meaning of the variable over and over, and Python allows it. 
 
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
 
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
