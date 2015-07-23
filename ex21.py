@@ -41,3 +41,13 @@ what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print "That becomes: ", what, "Can you do it by hand?"
 
+
+# Study Drill #4
+# Keep in mind that functions can have other formulas passed to it, or do math prior 
+
+var = 2+2
+
+studydrill = add(var, 2+2)
+
+print studydrill
+
