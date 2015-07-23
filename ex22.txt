@@ -6,10 +6,18 @@ CHARACTERS
 print = prints to the console
 float = floating point numbers have a decimal point
 modulus = '%' e.g. "X divided by Y with J remaining". J is the result
+variable = most any alphanumeric combination that can have any formula, string, integer, or other variable assigned to it. 
+formatter = %r, %s, %d can be called to input any assigned term into a printed string
+string = anything within " ", typically used for text
+integer = any numbers, will usually drop the decimal
+round() = lets your round floating point numbers e.g. round(1.7333)
+True = 
+False = 
 
+*****left off at ex08*****
 
 SYMBOLS
-+ plus
++ plus, may be used for math or string concatenation
 - minus
 / slash
 * asterisk
@@ -20,3 +28,11 @@ SYMBOLS
 >= greater-than-equal
 = assigns the value on the right to a variable on the left
 == tests if two things have the same value
++= concatenates e.g. (x = x + y) is the same as x+=y
+%r raw formatter, try to use only for debugging, prints exact values
+%s string formatter, use for strings only 
+%d decimal formatter, use only for numbers
+, lets you separate variables and operations occuring within a script line or parentheses
+" used around a string
+' same as " but typically used inside a string
+
