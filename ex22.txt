@@ -13,8 +13,17 @@ integer = any numbers, will usually drop the decimal
 round() = lets your round floating point numbers e.g. round(1.7333)
 True = 
 False = 
+raw_input() = allows you to get input from the user, anything between the parentheses is presented to the user just before allowing input
+x = int(raw_inpu()) = allows you to get a string and convert it to an integer
+input() = can convert input into python code but has security problems
+pydoc = 'pydoc x' can be typed into the terminal, works just like terminal man pages
+file() = a.k.a. open, opens a file type, returns a file object. types: r,w,a
+os = module of OS routines/functions for your system
+os = module of objects used by the interpreter
 
-*****left off at ex08*****
+
+
+*****left off at ex11*****
 
 SYMBOLS
 + plus, may be used for math or string concatenation
@@ -29,10 +38,25 @@ SYMBOLS
 = assigns the value on the right to a variable on the left
 == tests if two things have the same value
 += concatenates e.g. (x = x + y) is the same as x+=y
-%r raw formatter, try to use only for debugging, prints exact values
+%r 'raw representation'  formatter, try to use only for debugging, prints exact values
 %s string formatter, use for strings only 
 %d decimal formatter, use only for numbers
 , lets you separate variables and operations occuring within a script line or parentheses
 " used around a string
 ' same as " but typically used inside a string
-
+\n creates a new line, aka ASCII linefeed (LF)
+\' makes escape single quotes usable within a string
+\" makes escape double quotes usable within a string
+""" """ allows a multi-line string without formatting new lines
+\\ backslash
+\a ASCII bell (BEL)
+\b ASCII backspace (BS)
+\f ASCII formfeed (FF)
+\N{name} Character named name in the Unicode database (Unicode only)
+\r ASCII Carraige Return (CR)
+\t ASCII Horizontal Tab (TAB)
+\uxxxx Character with 16 bit hex value xxxx (Unicode only)
+\Uxxxxxxxx Character with 32 bit hex value xxxxxxxx (Unicode only)
+\v ASCII vertical tab (VT)
+\ooo Character with octal value ooo
+\xhh Character with hex value hh
