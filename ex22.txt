@@ -2,7 +2,7 @@ Exercise 22: What do you know so far?
 
 Go back through all the exercises and write down every single word and its meaning. 
 
-CHARACTERS
+WORDS
 print = prints to the console
 float = floating point numbers have a decimal point
 modulus = '%' e.g. "X divided by Y with J remaining". J is the result
@@ -14,16 +14,33 @@ round() = lets your round floating point numbers e.g. round(1.7333)
 True = 
 False = 
 raw_input() = allows you to get input from the user, anything between the parentheses is presented to the user just before allowing input
+prompt = any string you put between the raw_input parenthesis e.g. raw_input('>')
+int() = converts to an integer
 x = int(raw_inpu()) = allows you to get a string and convert it to an integer
 input() = can convert input into python code but has security problems
 pydoc = 'pydoc x' can be typed into the terminal, works just like terminal man pages
 file() = a.k.a. open, opens a file type, returns a file object. types: r,w,a
+open() = lets you insert a filename to be opened, creates a file object, but does not return the file contents. Allows "r, w, a" permissions. e.g. open(filename, 'w')
+read() = returns the file contents, prints a file to the screen
+seek(int) = allows you to read a specific 'byte' of a file, not the line
+close() = lets you close the file at the end of the script, highly recommended
 os = module of OS routines/functions for your system
-os = module of objects used by the interpreter
+sys = module of objects used by the interpreter
+from = allows you to import modules, then functions from each module for use
+modules = libraries of pre-written functions
+function = 'mini-scripts', saved in modules or written within your script. Callable in many different ways
+argv = called 'argument', a function of the sys module, allows you to pass 1-N strings to the script from the console as you run it, requires prior knowledge
+script = another word for a python program, any .py file
+python = allows you to open python
+quit() = allows you to close python
+readline = reads just one line of a text file
+truncate = empties the file, needs 'w' parameter, use wisely, e.g. variable.truncate()
+write('stuff') = writes "stuff" to the file e.g. variable.write
+def = allows you to create a function, lines below must be spaced '4' times
+*args = similar to argv, but for taking arguments to a function as a list. Does not require argv
+return = allows you to show the result of a calculation, when the function is called to the right of an = sign and provided with parameters
+parameter = provided to the right of a function, can be a variable, integer, or string e.g. function(parameter1, parameter2)
 
-
-
-*****left off at ex11*****
 
 SYMBOLS
 + plus, may be used for math or string concatenation
